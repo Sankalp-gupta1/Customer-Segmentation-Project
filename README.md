@@ -12,10 +12,10 @@
 Customer segmentation is essential for businesses to understand customer behavior and target them effectively.  
 This project uses **K-Means Clustering** to group mall customers based on:
 
-- Age
-- Gender
-- Annual Income
-- Spending Score
+- Age  
+- Gender  
+- Annual Income  
+- Spending Score  
 
 The goal is to help businesses:
 
@@ -30,49 +30,49 @@ The goal is to help businesses:
 
 - **Source**: [Kaggle - Mall Customer Segmentation](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial)
 - **Columns**:
-  - `CustomerID`: Unique identifier
-  - `Gender`: Male/Female
-  - `Age`: Customer’s age
-  - `Annual Income (k$)`: Annual income in thousands
+  - `CustomerID`: Unique identifier  
+  - `Gender`: Male/Female  
+  - `Age`: Customer’s age  
+  - `Annual Income (k$)`: Annual income in thousands  
   - `Spending Score`: Score assigned by mall (1–100)
 
 ---
 
 ## 🔧 Data Preprocessing
 
-- ✔️ No missing values found
-- ✔️ Encoded `Gender` using Label Encoding
+- ✔️ No missing values found  
+- ✔️ Encoded `Gender` using Label Encoding  
 - ✔️ Scaled numerical features using `StandardScaler`
 
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-- Plotted distributions for Age, Income, and Spending Score
-- Analyzed gender balance
+- Plotted distributions for Age, Income, and Spending Score  
+- Analyzed gender balance  
 - Used correlation matrix to explore feature relationships
 
 ---
 
 ## 🔍 Optimal Number of Clusters
 
-- **Elbow Method** and **Silhouette Score** used
-- Optimal value of **K = 5** selected
+- Used **Elbow Method** and **Silhouette Score**  
+- Selected optimal number of clusters: **K = 5**
 
 ---
 
 ## 🧠 K-Means Clustering
 
-- Applied KMeans algorithm with `n_clusters=5`
-- Added cluster labels to the dataset
-- Grouped customers into 5 unique segments
+- Applied KMeans algorithm with `n_clusters=5`  
+- Assigned cluster labels to each customer  
+- Added the `Cluster` column to the dataset
 
 ---
 
 ## 📈 Visualization
 
-- **2D Scatter Plot**: Annual Income vs Spending Score
-- **PCA Projection**: Reduced dimensions for clear cluster visualization
+- **2D Scatter Plot**: Annual Income vs Spending Score  
+- **PCA Projection**: Reduced dimensionality for visualizing clusters clearly
 
 ---
 
@@ -90,29 +90,33 @@ The goal is to help businesses:
 
 ## 📢 Marketing Recommendations
 
-- 🎯 Cluster-based targeting via email & ads
-- 📱 Mobile-first UX for younger groups
-- 🎁 Loyalty rewards for high spenders
+- 🎯 Cluster-based targeting via email & ads  
+- 📱 Mobile-first UX for younger groups  
+- 🎁 Loyalty rewards for high spenders  
 - 🔁 Retarget low-engagement high-potential users
 
 ---
 
 ## 🚀 Future Improvements
 
-- Real-time segmentation with user behavior data
-- Try DBSCAN, GMM, and hierarchical clustering
-- Dashboard using **Power BI** or **Tableau**
-- A/B test marketing strategies
+- Real-time segmentation using behavioral data  
+- Add features like browsing history, frequency  
+- Try DBSCAN, GMM, and hierarchical clustering  
+- Visualize with dashboards using **Power BI** or **Tableau**  
+- Validate campaigns via A/B testing
 
 ---
 
 ## 👨‍💻 Author
 
 **Sankalp Gupta**  
-Final Year B.Tech AI/ML Student, CSJMU (2022–2026)  
-📧 csjma22001390321csemockai@csjmu.ac.in  
-💼 Intern at Infotact Solutions
+- 🎓 Final Year B.Tech AI/ML Student, CSJMU (2022–2026)  
+- 👨‍💼 Intern at Infotact Solutions (Performance-based internship)  
+- 🧑 Age: 20  
+- 🚹 Gender: Male  
+- 💰 Stipend: ₹5000 (based on performance)  
+- 📧 Email: csjma22001390321csemockai@csjmu.ac.in
 
 ---
 
-⭐ *If you found this project helpful, consider giving it a ⭐ on GitHub!*
+⭐ *If you found this project helpful, feel free to star it and share it on GitHub!*

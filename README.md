@@ -29,9 +29,11 @@ The labels are only summaries of the data. They are not predictions about real p
 
 ## Live dashboard
 
-The production deployment is hosted on Vercel.
+The production dashboard is live on Vercel:
 
-If you are viewing this README while the first deployment is still building, wait for the repository's latest Vercel deployment to finish and then open the project from the repository deployment link.
+**https://customer-segmentation-dashboard-bay.vercel.app/**
+
+No login, API key or database is required.
 
 ## Dashboard features
 
